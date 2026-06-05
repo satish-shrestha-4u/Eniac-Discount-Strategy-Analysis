@@ -62,11 +62,20 @@ This project focuses on cleaning messy e-commerce data and analysing discount be
 - Adjust discount decisions based on category-level performance.
 - Limit aggressive discounts on high-value products to protect margins and brand positioning.
 
+## Data Quality Context
+
+Before answering the business questions, the data required cleaning because it contained inconsistencies and possible corruption issues.
+
+This project therefore, focuses first on assessing data quality, handling messy data, and making the dataset reliable enough for analysis.
+
 ## Repository Structure
 
 ```text
-notebooks/      Python and Pandas analysis notebooks
-data/           Dataset notes
-images/         Charts and screenshots
-presentation/   Final project presentation
+data/                       Dataset notes
+01_original_data/           Raw dataset before cleaning
+02_cleaned_data_phase_1/    First cleaned version of the data
+03_cleaned_data_phase_2/    Final cleaned version used for analysis
+images/                     Charts and screenshots
+notebooks/                  Python and Pandas analysis notebooks
+presentation/               Final project presentation
 
