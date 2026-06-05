@@ -11,3 +11,9 @@ Before answering the business questions, the data required cleaning because it c
 This project therefore, focuses first on assessing data quality, handling messy data, and making the dataset reliable enough for analysis.
 
 Raw data may not be included in this repository unless it is allowed and necessary for understanding the project.
+
+```text
+data/                       Dataset notes
+01_original_data/           Raw dataset before cleaning
+02_cleaned_data_phase_1/    First cleaned version of the data
+03_cleaned_data_phase_2/    Final cleaned version used for analysis
