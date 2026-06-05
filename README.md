@@ -23,6 +23,7 @@ Are discounts beneficial for Eniac?
 - Pandas
 - Seaborn
 - Matplotlib
+- NumPy
 - Google Colab / Jupyter Notebook
 - Data cleaning
 - Data storytelling
@@ -38,13 +39,28 @@ Are discounts beneficial for Eniac?
 - Revenue and discount analysis
 - Visual storytelling with charts
 
+## Purpose
+
+The purpose of this repository is to demonstrate my ability to clean real-world data, analyse business questions with Python and Pandas, create visual insights, and communicate recommendations clearly.
+
 ## Summary
 
 This project focuses on cleaning messy e-commerce data and analysing discount behaviour. The analysis helps assess whether discounts support Eniac’s business goals or create risks to revenue and brand positioning.
 
-## Purpose
 
-The purpose of this repository is to demonstrate my ability to clean real-world data, analyse business questions with Python and Pandas, create visual insights, and communicate recommendations clearly.
+## Key Insights
+
+- Discounting was common across many sales transactions.
+- The analysis did not show a clear revenue increase from higher discount levels.
+- Mid-range products generated strong order volume, while higher-value products played a larger role in revenue contribution.
+- Discount performance differed depending on the product category.
+
+## Recommendations
+
+- Use a more selective discount strategy instead of applying broad discounts across all products.
+- Focus promotions on specific products, categories, or seasonal sales periods.
+- Adjust discount decisions based on category-level performance.
+- Limit aggressive discounts on high-value products to protect margins and brand positioning.
 
 ## Repository Structure
 
